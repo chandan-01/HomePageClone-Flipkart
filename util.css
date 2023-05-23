@@ -4,6 +4,50 @@
     align-items: center;
 }
 .hero{
-    height: 3rem;
-    /* display: flex; */
+    width: fit-content;
+    padding: 1rem 0 0  ;
 }
+.navigation{
+    margin-left: 7rem;
+    display: flex;
+ 
+}
+.hero-txt a{
+    color: white;
+    font-style: italic;
+    font-size:  0.7rem;
+    position: relative;
+    bottom: 0.5rem;
+}
+.text-plus{
+    font-weight: bolder;
+}
+#search-area{
+    width: 40rem;
+    height: 2rem;
+    margin-left: 0.5rem;margin-top: 1rem;
+    padding-left: 1rem;
+}
+::placeholder{
+    color: rgba(43, 62, 64, 0.79);
+}
+.login-btn a{
+    color: #2874f0;
+    text-decoration: none;
+    padding: 2.5rem;
+    font-weight:600;
+}
+.login-btn{
+    width: fit-content;
+    background-color: white;
+    margin-left: 3.5rem;
+    height: 1.7rem;
+    margin-top: 1.2rem;
+}
+.nav-link{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    margin: 1.4rem;
+}
+
