@@ -63,7 +63,6 @@
 
 .grocery {
     width: fit-content;
-    /* margin: auto 2rem; */
 }
 
 .menu-items {
@@ -73,4 +72,29 @@
     display: flex;
     justify-content: space-around;
     margin: 1rem 6rem;
+}
+.img-slider{
+    background-color: #2874f0;
+}
+.slides-row{
+    display: flex;
+    margin: 0 1rem;
+}
+.slide{
+    min-width: 100%;
+    padding-bottom: 1rem;
+}
+.previous{
+    position: relative;
+    top: 8.5rem;
+    left: 1rem;
+    padding: 1.8rem 1rem;
+    background-color: white;
+}
+.next{
+    position: relative;
+    left: 93.2vw;
+    top: 8.5rem;
+    background-color: white;
+    padding: 1.8rem 1rem;
 }
