@@ -108,22 +108,6 @@
     z-index: 1;
 }
 
-.buttons {
-    position: relative;
-    top: -10px;
-    display: flex;
-    justify-content: center;
-}
-
-.buttons a {
-    display: inline-block;
-    height: 15px;
-    width: 15px;
-    border-radius: 50px;
-    background-color: lightgreen;
-    margin-right: 0.5rem;
-}
-
 @keyframes slides {
     0% {
         transform: translateX(0vw);
