@@ -1,9 +1,3 @@
-.all-center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .hero {
     width: fit-content;
     padding: 1rem 0 0;
@@ -111,23 +105,6 @@
     z-index: 1;
 }
 
-/* @keyframes slides {
-    0% {
-        background-image: url();
-    }
-
-    25% {
-        transform: translateX(-100vw);
-    }
-
-    50% {
-        transform: translateX(-200vw);
-    }
-
-    70% {
-        transform: translateX(-100vw);
-    }
-} */
 @keyframes slides {
     0% {
         background-image: url("./big-slide img/plane30b0e892420793da.webp");
@@ -154,4 +131,44 @@
         background-image: url("./big-slide img/phone.webp");
         background-repeat: no-repeat;
     }
+}
+
+.footer-header ul li {
+    display: inline-block;
+    display: grid;
+}
+
+.footer-header ul li a {
+    color: white;
+    text-decoration: none;
+    line-height: 2;
+    font-weight: 400;
+    font-size: 12px;
+}
+.footer-header{
+    width: fit-content;
+}
+.container-flex{
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    border-bottom:2px solid #878787;
+}
+.footer-header pre{
+    font-size: small;
+}
+.footer-header p{
+    font-weight: 400;
+    font-size: 12px;
+    color: #878787;
+    margin-bottom: 9px;
+}
+.foot{
+    height: 3px;
+}
+.lowest-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5rem;
+   padding:2rem 0;
 }
