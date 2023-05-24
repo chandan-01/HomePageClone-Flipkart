@@ -52,6 +52,8 @@
     margin-left: 3.5rem;
     height: 1.7rem;
     margin-top: 1.2rem;
+    display: flex;
+    align-items: center;
 }
 
 .nav-link {
@@ -80,9 +82,10 @@
 
 .slides-row {
     display: flex;
-    margin: 0 1rem;
-    overflow: visible;
-    animation: slides 15s cubic-bezier(.46,.03,.52,.96) 3s infinite;
+    margin: 0 0rem;
+    animation: slides 15s linear infinite;
+    height: 40vh;
+    width: 100vw;
 }
 
 .slide {
@@ -108,9 +111,9 @@
     z-index: 1;
 }
 
-@keyframes slides {
+/* @keyframes slides {
     0% {
-        transform: translateX(0vw);
+        background-image: url();
     }
 
     25% {
@@ -123,5 +126,32 @@
 
     70% {
         transform: translateX(-100vw);
+    }
+} */
+@keyframes slides {
+    0% {
+        background-image: url("./big-slide img/plane30b0e892420793da.webp");
+        background-repeat: no-repeat;
+
+    }
+
+    25% {
+        background-image: url("./big-slide img/fridge.webp");
+        background-repeat: no-repeat;
+    }
+
+    50% {
+        background-image: url("./big-slide img/phone.webp");
+        background-repeat: no-repeat;
+    }
+
+    75% {
+        background-image: url("./big-slide img/plane30b0e892420793da.webp");
+        background-repeat: no-repeat;
+    }
+
+    100% {
+        background-image: url("./big-slide img/phone.webp");
+        background-repeat: no-repeat;
     }
 }
