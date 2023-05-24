@@ -16,7 +16,6 @@
     position: relative;
     bottom: 0.5rem;
 }
-
 .text-plus {
     font-weight: bolder;
 }
@@ -59,6 +58,10 @@
 
 .grocery {
     width: fit-content;
+}
+.grocery p:hover{
+    color: #2874f0;
+    font-size: 0.9rem;
 }
 
 .menu-items {
@@ -171,4 +174,9 @@
     justify-content: space-between;
     margin: 0 5rem;
    padding:2rem 0;
+}
+.footer-header ul li a:hover {
+    color: #2874f0;
+    text-decoration: underline;
+    font-size: 0.8rem;
 }
