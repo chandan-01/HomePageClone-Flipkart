@@ -72,22 +72,22 @@
 
 .img-slider {
     background-color: white;
+    width: 100vw;
 }
 
 .slides-row {
     display: flex;
-    margin: 0 0rem;
+    /* margin: 0 0rem; */
     animation: slides 15s linear infinite;
     height: 40vh;
-    width: 100vw;
 }
 
 .slide {
-    min-width: 100%;
+    /* min-width: 100%; */
     padding-bottom: 1rem;
 }
 
-.previous {
+/* .previous {
     position: relative;
     top: 8.5rem;
     left: 0rem;
@@ -98,12 +98,12 @@
 
 .next {
     position: relative;
-    left: 94.4vw;
+    left: 90.69rem;
     top: 8.5rem;
     background-color: white;
     padding: 1.8rem 1rem;
     z-index: 1;
-}
+} */
 
 @keyframes slides {
     0% {
