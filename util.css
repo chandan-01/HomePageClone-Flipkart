@@ -93,17 +93,19 @@
 .previous {
     position: relative;
     top: 8.5rem;
-    left: 1rem;
+    left: 0rem;
     padding: 1.8rem 1rem;
     background-color: white;
+    z-index: 1;
 }
 
 .next {
     position: relative;
-    left: 93.2vw;
+    left: 94.4vw;
     top: 8.5rem;
     background-color: white;
     padding: 1.8rem 1rem;
+    z-index: 1;
 }
 
 .buttons {
